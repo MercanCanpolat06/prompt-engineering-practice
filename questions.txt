@@ -1,4 +1,3 @@
-Q1 : [C]
 ### PREMISES ###
 
 There are three people named Ahmet, Gözde, and Jale. 
@@ -23,8 +22,7 @@ III. Coral
 [C] I and II
 [D] II and III
 [E] I, II, and III
-
-Q2 : [C]
+---
 
 ### PREMISES ###
 Six people named Ali, Burcu, Ceyda, Dilek, Ezgi, and Fatih are sitting around a round table.
@@ -45,9 +43,7 @@ III. Fatih
 [C] I and II
 [D] I and III
 [E] II and III
-
-Q3 : [D]
-
+---
 ### PREMISES ###
 Six people named Ali, Burcu, Ceyda, Dilek, Ezgi, and Fatih are sitting in sequentially numbered seats from 1 to 6 around a circular table.
 Dilek is sitting in seat number 5.
@@ -63,9 +59,7 @@ Based on the information above, which of the following is definitely false?
 [C] One of the people sitting next to Dilek is Fatih.
 [D] Burcu and Ezgi are not sitting next to each other.
 [E] Ezgi and Ceyda are sitting next to each other.
-
-Q4 : [C]
-
+---
 ### PREMISES ###
 Six people named Ali, Burcu, Ceyda, Dilek, Ezgi, and Fatih are sitting in sequentially numbered seats from 1 to 6 around a circular table.
 Dilek is sitting in seat number 5.
@@ -81,9 +75,7 @@ Based on the information above, which of the following is definitely true?
 [C] Burcu, Dilek, and Ezgi are sitting next to each other.
 [D] Burcu, Ceyda, and Ezgi are sitting next to each other.
 [E] Ali, Burcu, and Fatih are sitting next to each other.
-
-Q5 : [A]
-
+---
 ### PREMISES ###
 - There are three people named Ahmet, Gözde, and Jale.
 - They bought six types of fish: red mullet, bluefish, anchovy, sea bass, coral, and bonito.
@@ -104,9 +96,7 @@ Based on the information above, which of the following fish were definitely cook
 [C] Red mullet and sea bass
 [D] Bluefish and coral
 [E] Bluefish and anchovy
-
-Q6 : [E]
-
+---
 ### PREMISES ###
 - There are three people named Ahmet, Gözde, and Jale.
 - They bought six types of fish: red mullet, bluefish, anchovy, sea bass, coral, and bonito.
@@ -130,9 +120,7 @@ III. The type of fish Jale cooked on the grill
 [C] Only III
 [D] I and II
 [E] II and III
-
-Q7 : [A]
-
+---
 ### PREMISES ###
 - Seven people named Ayla, Behiç, Cavidan, Derya, Emre, Fazilet, and Giray are sitting in a row of seats numbered sequentially from 1 to 9.
 - Ayla is sitting in seat number 4.
@@ -153,8 +141,8 @@ III. Derya
 [C] Only III
 [D] I and II
 [E] II and III
+---
 
-Q8 : [D]
 
 ### PREMISES ###
 - Seven people named Ayla, Behiç, Cavidan, Derya, Emre, Fazilet, and Giray are sitting in a row of seats numbered sequentially from 1 to 9.
@@ -174,7 +162,8 @@ If it is known that there are two seats between Behiç and Derya, which of the f
 [D] Nobody is sitting in seat number 7.
 [E] Nobody is sitting in seat number 8.
 
-Q9 : [B]
+---
+
 
 ### PREMISES ###
 - Seven people named Ayla, Behiç, Cavidan, Derya, Emre, Fazilet, and Giray are sitting in a row of seats numbered sequentially from 1 to 9.
@@ -193,8 +182,8 @@ Based on the information above, which of the following is definitely true?
 [C] Cavidan's seat number is greater than Derya's seat number.
 [D] Derya's seat number is less than Ayla's seat number.
 [E] Emre's seat number is less than Giray's seat number.
+---
 
-Q10 : [D]
 ### PREMISES ###
 - Seven people named Ayla, Behiç, Cavidan, Derya, Emre, Fazilet, and Giray are sitting in a row of seats numbered sequentially from 1 to 9.
 - Ayla is sitting in seat number 4.
@@ -215,8 +204,7 @@ III. Emre
 [C] Only III
 [D] I and II
 [E] II and III
-
-Q11 : 
+---
 
 
 

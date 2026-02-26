@@ -3,6 +3,7 @@ import os
 import IPython
 from langchain_community.llms import OpenAI
 from dotenv import load_dotenv
+import time
 
 load_dotenv()
 
@@ -13,7 +14,9 @@ client = openai.OpenAI(
     api_key= OPENROUTER_API_KEY,
 )
 
-prompt = """### PREMISES ###
+prompt = """Solve the following logic puzzle and output the result ONLY in a strictly valid JSON format. No conversational text, no explanations.
+
+### PREMISES ###
 
 There are three people named Ahmet, Gözde, and Jale. 
 They bought six types of fish: red mullet, bluefish, anchovy, sea bass, coral, and bonito. 
@@ -38,34 +41,35 @@ III. Coral
 [D] II and III
 [E] I, II, and III"""
 
-response = client.chat.completions.create(
-  model="openai/gpt-oss-120b:free",
-  messages=[
-          {
-            "role": "user",
-            "content": prompt
-          }
-        ],
-  extra_body={"reasoning": {"enabled": True}}
-)
 
-# Extract the assistant message with reasoning_details
-response = response.choices[0].message
+# Chat loop
+with open("questions.txt", 'r', encoding='utf-8') as f:
+        content = f.read()
 
-# Preserve the assistant message with reasoning_details
-messages = [
-  {"role": "user", "content": prompt},
-  {
-    "role": "assistant",
-    "content": response.content,
-    "reasoning_details": response.reasoning_details  # Pass back unmodified
-  },
-  {"role": "user", "content": "Are you sure? Think carefully."}
-]
+question_list = content.split("---")
+questions = [s.strip() for s in question_list if s.strip()]
 
-# Second API call - model continues reasoning from where it left off
-response2 = client.chat.completions.create(
-  model="openai/gpt-oss-120b:free",
-  messages=messages,
-  extra_body={"reasoning": {"enabled": True}}
-)
+for i, question in enumerate(questions):
+        print(f"Sending Question number: {i}")
+        try:
+          response = client.chat.completions.create(
+          model="openai/gpt-oss-120b:free",
+          messages=[
+                  {
+                    "role": "user",
+                    "content": "Solve the following logic puzzle and output the result ONLY in a strictly valid JSON format. No conversational text, no explanations." + question
+                  }
+                ],
+          extra_body={"reasoning": {"enabled": True}}
+          )
+          response = response.choices[0].message
+
+          with open("answers.txt", "a", encoding="utf-8") as out:
+                out.write(f"--- QUESTION {i+1} ---\n")
+                out.write(f"--- ANSWER {i+1} ---\n{response}\n")
+                out.write("\n" + "="*50 + "\n\n")
+            
+          print(f"Question {i+1} completed.")
+        except:
+              print(f"Error in sending question {i}")
+        time.sleep(3)
