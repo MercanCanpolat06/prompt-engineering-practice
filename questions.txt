@@ -1,0 +1,224 @@
+Q1 : [C]
+### PREMISES ###
+
+There are three people named Ahmet, Gözde, and Jale. 
+They bought six types of fish: red mullet, bluefish, anchovy, sea bass, coral, and bonito. 
+They cooked these fish either on the grill or in a pan. 
+Everyone bought exactly two different types of fish. 
+Everyone cooked one of their fish in a pan and the other on the grill. 
+Red mullet and bluefish were bought by different people and were cooked using different methods. 
+Each type of fish was bought exactly once. 
+Gözde bought anchovy and cooked it on the grill. 
+Ahmet bought sea bass and bonito.
+
+### QUESTION ###
+Based on the information above, which of the following fish could have been cooked on the grill? 
+I. Bluefish 
+II. Sea bass
+III. Coral
+
+### OPTIONS ###
+[A] Only I
+[B] Only II
+[C] I and II
+[D] II and III
+[E] I, II, and III
+
+Q2 : [C]
+
+### PREMISES ###
+Six people named Ali, Burcu, Ceyda, Dilek, Ezgi, and Fatih are sitting around a round table.
+The seats are numbered sequentially from 1 to 6 around the table.
+Dilek is sitting in seat number 5.
+Ali is the only person sitting between Ceyda and Fatih.
+Ezgi is sitting in seat number 3.
+
+### QUESTION ###
+Based on the information above, which of the following people's seat numbers are definitely known?
+I. Ali
+II. Burcu
+III. Fatih
+
+### OPTIONS ###
+[A] Only I
+[B] Only II
+[C] I and II
+[D] I and III
+[E] II and III
+
+Q3 : [D]
+
+### PREMISES ###
+Six people named Ali, Burcu, Ceyda, Dilek, Ezgi, and Fatih are sitting in sequentially numbered seats from 1 to 6 around a circular table.
+Dilek is sitting in seat number 5.
+Ali is the only person sitting between Ceyda and Fatih.
+Ezgi is sitting in seat number 3.
+
+### QUESTION ###
+Based on the information above, which of the following is definitely false?
+
+### OPTIONS ###
+[A] Burcu and Dilek are sitting next to each other.
+[B] Burcu and Ceyda are not sitting next to each other.
+[C] One of the people sitting next to Dilek is Fatih.
+[D] Burcu and Ezgi are not sitting next to each other.
+[E] Ezgi and Ceyda are sitting next to each other.
+
+Q4 : [C]
+
+### PREMISES ###
+Six people named Ali, Burcu, Ceyda, Dilek, Ezgi, and Fatih are sitting in sequentially numbered seats from 1 to 6 around a circular table.
+Dilek is sitting in seat number 5.
+Ali is the only person sitting between Ceyda and Fatih.
+Ezgi is sitting in seat number 3.
+
+### QUESTION ###
+Based on the information above, which of the following is definitely true?
+
+### OPTIONS ###
+[A] Ali, Burcu, and Ceyda are sitting next to each other.
+[B] Dilek, Ezgi, and Fatih are sitting next to each other.
+[C] Burcu, Dilek, and Ezgi are sitting next to each other.
+[D] Burcu, Ceyda, and Ezgi are sitting next to each other.
+[E] Ali, Burcu, and Fatih are sitting next to each other.
+
+Q5 : [A]
+
+### PREMISES ###
+- There are three people named Ahmet, Gözde, and Jale.
+- They bought six types of fish: red mullet, bluefish, anchovy, sea bass, coral, and bonito.
+- They cooked these fish either on the grill or in a pan.
+- Everyone bought exactly two different types of fish.
+- Everyone cooked one of their fish in a pan and the other on the grill.
+- Red mullet and bluefish were bought by different people and were cooked using different methods.
+- Each type of fish was bought exactly once.
+- Gözde bought anchovy and cooked it on the grill.
+- Ahmet bought sea bass and bonito.
+
+### QUESTION ###
+Based on the information above, which of the following fish were definitely cooked using different methods?
+
+### OPTIONS ###
+[A] Anchovy and coral
+[B] Red mullet and bonito
+[C] Red mullet and sea bass
+[D] Bluefish and coral
+[E] Bluefish and anchovy
+
+Q6 : [E]
+
+### PREMISES ###
+- There are three people named Ahmet, Gözde, and Jale.
+- They bought six types of fish: red mullet, bluefish, anchovy, sea bass, coral, and bonito.
+- They cooked these fish either on the grill or in a pan.
+- Everyone bought exactly two different types of fish.
+- Everyone cooked one of their fish in a pan and the other on the grill.
+- Red mullet and bluefish were bought by different people and were cooked using different methods.
+- Each type of fish was bought exactly once.
+- Gözde bought anchovy and cooked it on the grill.
+- Ahmet bought sea bass and bonito.
+
+### QUESTION ###
+If it is known that Jale bought bluefish, which of the following information can be definitely known?
+I. The type of fish Ahmet cooked on the grill
+II. The type of fish Gözde cooked in a pan
+III. The type of fish Jale cooked on the grill
+
+### OPTIONS ###
+[A] Only I
+[B] Only II
+[C] Only III
+[D] I and II
+[E] II and III
+
+Q7 : [A]
+
+### PREMISES ###
+- Seven people named Ayla, Behiç, Cavidan, Derya, Emre, Fazilet, and Giray are sitting in a row of seats numbered sequentially from 1 to 9.
+- Ayla is sitting in seat number 4.
+- Seat number 5 is empty.
+- Only Giray is sitting between Behiç and Emre.
+- Cavidan and Fazilet are sitting next to each other.
+- There is exactly one seat between Derya and Fazilet, and that seat is empty.
+
+### QUESTION ###
+Based on the information above, which of the following people could be sitting in seat number 3?
+I. Behiç
+II. Cavidan
+III. Derya
+
+### OPTIONS ###
+[A] Only I
+[B] Only II
+[C] Only III
+[D] I and II
+[E] II and III
+
+Q8 : [D]
+
+### PREMISES ###
+- Seven people named Ayla, Behiç, Cavidan, Derya, Emre, Fazilet, and Giray are sitting in a row of seats numbered sequentially from 1 to 9.
+- Ayla is sitting in seat number 4.
+- Seat number 5 is empty.
+- Only Giray is sitting between Behiç and Emre.
+- Cavidan and Fazilet are sitting next to each other.
+- There is exactly one seat between Derya and Fazilet, and that seat is empty.
+
+### QUESTION ###
+If it is known that there are two seats between Behiç and Derya, which of the following is true?
+
+### OPTIONS ###
+[A] Cavidan is sitting in seat number 1.
+[B] Emre is sitting in seat number 3.
+[C] Fazilet is sitting in seat number 6.
+[D] Nobody is sitting in seat number 7.
+[E] Nobody is sitting in seat number 8.
+
+Q9 : [B]
+
+### PREMISES ###
+- Seven people named Ayla, Behiç, Cavidan, Derya, Emre, Fazilet, and Giray are sitting in a row of seats numbered sequentially from 1 to 9.
+- Ayla is sitting in seat number 4.
+- Seat number 5 is empty.
+- Only Giray is sitting between Behiç and Emre.
+- Cavidan and Fazilet are sitting next to each other.
+- There is exactly one seat between Derya and Fazilet, and that seat is empty.
+
+### QUESTION ###
+Based on the information above, which of the following is definitely true?
+
+### OPTIONS ###
+[A] Behiç's seat number is greater than Cavidan's seat number.
+[B] Ayla's seat number is greater than Giray's seat number.
+[C] Cavidan's seat number is greater than Derya's seat number.
+[D] Derya's seat number is less than Ayla's seat number.
+[E] Emre's seat number is less than Giray's seat number.
+
+Q10 : [D]
+### PREMISES ###
+- Seven people named Ayla, Behiç, Cavidan, Derya, Emre, Fazilet, and Giray are sitting in a row of seats numbered sequentially from 1 to 9.
+- Ayla is sitting in seat number 4.
+- Seat number 5 is empty.
+- Only Giray is sitting between Behiç and Emre.
+- Cavidan and Fazilet are sitting next to each other.
+- There is exactly one seat between Derya and Fazilet, and that seat is empty.
+
+### QUESTION ###
+Based on the information above, which of the following people could be sitting in seat number 9?
+I. Cavidan
+II. Derya
+III. Emre
+
+### OPTIONS ###
+[A] Only I
+[B] Only II
+[C] Only III
+[D] I and II
+[E] II and III
+
+Q11 : 
+
+
+
+
+
