@@ -204,8 +204,69 @@ III. Emre
 [C] Only III
 [D] I and II
 [E] II and III
+
 ---
 
+### PREMISES ###
+Ali and Berrak stayed at a hotel for five days. For breakfast, the hotel offered crepes, menemen, omelet, pastry, and bagel options. Some information regarding the individuals' food choices is as follows:
+- Both individuals chose from all food types.
+- The individuals could choose only one type of food per day.
+- The food Ali chose on the second day was chosen by Berrak on the fourth day.
+- Ali chose crepes, omelet, and pastry on consecutive days, respectively.
+- Berrak also chose crepes, omelet, and pastry on consecutive days, respectively.
+- Ali chose the bagel on a day prior to the omelet.
+
+### QUESTION ###
+Which of the following food combinations could NOT have been chosen by different people on the same day?
+
+### OPTIONS ###
+[A] Crepes and bagel
+[B] Omelet and menemen
+[C] Crepes and omelet
+[D] Menemen and pastry
+[E] Pastry and bagel
+
+---
+
+### PREMISES ###
+Ali and Berrak stayed at a hotel for five days. For breakfast, the hotel offered crepes, menemen, omelet, pastry, and bagel options. Some information regarding the individuals' food choices is as follows:
+- Both individuals chose from all food types.
+- The individuals could choose only one type of food per day.
+- The food Ali chose on the second day was chosen by Berrak on the fourth day.
+- Ali chose crepes, omelet, and pastry on consecutive days, respectively.
+- Berrak also chose crepes, omelet, and pastry on consecutive days, respectively.
+- Ali chose the bagel on a day prior to the omelet.
+
+### QUESTION ###
+Which of the following food types was chosen by both Ali and Berrak within the first three days?
+
+### OPTIONS ###
+[A] Crepes
+[B] Menemen
+[C] Omelet
+[D] Pastry
+[E] Bagel
+
+---
+
+### PREMISES ###
+Ali and Berrak stayed at a hotel for five days. For breakfast, the hotel offered crepes, menemen, omelet, pastry, and bagel options. Some information regarding the individuals' food choices is as follows:
+- Both individuals chose from all food types.
+- The individuals could choose only one type of food per day.
+- The food Ali chose on the second day was chosen by Berrak on the fourth day.
+- Ali chose crepes, omelet, and pastry on consecutive days, respectively.
+- Berrak also chose crepes, omelet, and pastry on consecutive days, respectively.
+- Ali chose the bagel on a day prior to the omelet.
+
+### QUESTION ###
+If it is known that Berrak chose menemen on a day before the bagel, which of the following is true?
+
+### OPTIONS ###
+[A] Ali chose the bagel on the first day.
+[B] Ali chose the omelet on the second day.
+[C] Berrak chose the omelet on the third day.
+[D] Berrak chose the bagel on the fourth day.
+[E] Berrak chose the pastry on the fifth day.
 
 
 
