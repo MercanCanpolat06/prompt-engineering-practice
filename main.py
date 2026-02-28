@@ -11,8 +11,8 @@ load_dotenv()
 OPENROUTER_API_KEY = os.getenv("HugginFace_API_KEY")
 
 client = openai.OpenAI(
-    base_url="https://router.huggingface.co/v1",
-    api_key= OPENROUTER_API_KEY,
+    base_url="http://localhost:11434/v1", 
+    api_key="ollama",
 )
 
 prompt = """Solve the following logic puzzle and output the result ONLY in a strictly valid JSON format. No conversational text, no explanations.
@@ -42,52 +42,50 @@ III. Coral
 [D] II and III
 [E] I, II, and III"""
 
-one_shot_prompt = """You are an expert logic puzzle solver. You think step-by-step to deduce the correct schedule or arrangement, considering all constraints. 
-Always output ONLY a strictly valid JSON object with one key: "answer" (the correct option letter). 
+one_shot_prompt = """You are an expert logic puzzle solver algorithm. You must strictly follow a 4-stage deductive reasoning process inside <thinking> tags before providing the final answer.
 
-EXAMPLE PUZZLE:
-### PREMISES ###
-Ali and Berrak stayed at a hotel for five days. For breakfast, the hotel offered crepes, menemen, omelet, pastry, and bagel options. Some information regarding the individuals' food choices is as follows:
-- Both individuals chose from all food types.
-- The individuals could choose only one type of food per day.
-- The food Ali chose on the second day was chosen by Berrak on the fourth day.
-- Ali chose crepes, omelet, and pastry on consecutive days, respectively.
-- Berrak also chose crepes, omelet, and pastry on consecutive days, respectively.
-- Ali chose the bagel on a day prior to the omelet.
+YOUR 4-STAGE PROCESS:
+[STAGE 1: ENTITIES] List all categories, items, and their strict limits.
+[STAGE 2: CONSTRAINTS] Separate absolute facts (exact placements) from relative conditions.
+[STAGE 3: MAPPING] Build the scenarios step-by-step. Start with absolute facts. Apply relative constraints to find all possible valid layouts. 
+[STAGE 4: EVALUATION] Test the given options against your valid layouts to answer the specific question asked.
 
-### QUESTION ###
-Based on this information, which of the following foods could Berrak have chosen on the fifth day?
-I. pastry
-II. bagel
-III. menemen
+After completing the <thinking> block, output ONLY a valid JSON object: {"answer": "Letter"}
 
-### OPTIONS ###
-[A] Only I
-[B] Only II
-[C] I and II
-[D] II and III
-[E] I, II, and III
-SOLUTION METHOD:
+### EXAMPLE PUZZLE ###
+Tasks X, Y, and Z are performed on Monday, Tuesday, and Wednesday. 
+- Task Y is performed on Wednesday.
+- Task X is performed on a day after Task Z.
+QUESTION: Which task is performed on Tuesday?
+OPTIONS:
+[A] X
+[B] Y
+[C] Z
 
-  "Step 1: Let's denote the foods as C (Crepes), M (Menemen), O (Omelet), P (Pastry), and B (Bagel). 
-  Both Ali and Berrak have a strict 3-day consecutive sequence of C -> O -> P. 
-  Step 2: Let's find Ali's sequence. Ali's B must be before O. If Ali's sequence started on Day 1 (C, O, P on days 1,2,3), O would be Day 2, meaning B must be Day 1. But Day 1 is C, so this is impossible. 
-  If Ali's sequence started on Day 2 (C, O, P on days 2,3,4), Ali's Day 2 is C. 
-  Rule says Ali(Day 2) = Berrak(Day 4). So Berrak(Day 4) = C. Since Berrak also has consecutive C -> O -> P, Berrak's Day 5 would be O, but P would need a Day 6, which is impossible. 
-  Thus, Ali's C -> O -> P sequence MUST be on Days 3, 4, and 5. 
-  Step 3: Now we know Ali is [?, ?, C, O, P]. Ali's Day 1 and 2 are B and M. 
-  Since Ali(Day 2) = Berrak(Day 4), Berrak's Day 4 must be either B or M. 
-  Step 4: Let's find Berrak's sequence. Berrak has C -> O -> P consecutively. Since Berrak's Day 4 is B or M, Berrak's sequence cannot overlap with Day 4.
-  Therefore, Berrak's C -> O -> P MUST be on Days 1, 2, and 3. 
-  Step 5: Now we establish the two valid scenarios. 
-  Scenario 1: Ali's Day 2 is M. Then Berrak's Day 4 is M. This leaves B for Berrak's Day 5. 
-  Scenario 2: Ali's Day 2 is B. Then Berrak's Day 4 is B. This leaves M for Berrak's Day 5. 
-  Step 6: Conclusion. On the 5th day, Berrak could have chosen B (Bagel) or M (Menemen). Looking at the Roman numerals, Bagel is II and Menemen is III.",
+### EXAMPLE THINKING PROCESS ###
+[STAGE 1: ENTITIES]
+- Days: Monday, Tuesday, Wednesday (Chronological).
+- Tasks: X, Y, Z (Each performed exactly once).
 
-EXAMPLE ANSWER:
+[STAGE 2: CONSTRAINTS]
+- Absolute: Y = Wednesday.
+- Relative: Z < X (Z happens before X).
+
+[STAGE 3: MAPPING]
+- Place Absolute: _ , _ , Y. (Monday and Tuesday are empty).
+- Apply Relative: The remaining tasks are X and Z. The remaining days are Monday and Tuesday. 
+- Since Z must happen before X, Z must be on Monday and X must be on Tuesday.
+- Final Layout: Monday=Z, Tuesday=X, Wednesday=Y.
+
+[STAGE 4: EVALUATION]
+- The question asks which task is on Tuesday.
+- Based on the final layout, Task X is on Tuesday. This matches option [A].
+
+### EXAMPLE ANSWER ###
 {
-  "answer": "D"
-}"""
+  "answer": "A"
+}
+"""
 
 zero_shot_prompt = "Solve the following logic puzzle and output the result ONLY in a strictly valid JSON format. No conversational text, no explanations."
 
@@ -107,7 +105,7 @@ for i, question in enumerate(questions):
         print(f"Sending Question number: {i}")
         try:
           response = client.chat.completions.create(
-          model="meta-llama/Llama-3.1-8B-Instruct",
+          model="qwen2.5:14b",
           messages=[
                   {
                     "role": "user",
@@ -115,6 +113,11 @@ for i, question in enumerate(questions):
                   }
                 ],
           #extra_body={"reasoning": {"enabled": True}},
+          temperature=0.0,      
+          top_p=1.0,            
+          seed=42,              # Deneylerin tekrarlanabilirliği için sabit bir tohum
+          max_tokens=2000,     
+          frequency_penalty=0.
           )
           response = response.choices[0].message.content
 
@@ -140,7 +143,7 @@ for i, question in enumerate(questions):
         print(f"Sending Question number: {i}")
         try:
           response = client.chat.completions.create(
-          model="meta-llama/Llama-3.1-8B-Instruct",
+          model="qwen2.5:14b",
           messages=[
                   {
                     "role": "user",
@@ -148,6 +151,11 @@ for i, question in enumerate(questions):
                   }
                 ],
           #extra_body={"reasoning": {"enabled": True}},
+          temperature=0.0,      
+          top_p=1.0,            
+          seed=42,              
+          max_tokens=2000,     
+          frequency_penalty=0.
           )
           response = response.choices[0].message.content
 
