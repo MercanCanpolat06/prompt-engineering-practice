@@ -11,3 +11,4 @@ Format Confusion: Forcing the model to write a long reasoning chain inside a JSO
 
 Next Steps / Fixes:
 change the One-Shot prompt.
+Move the reasoning process outside the JSON object using <thinking> tags.
