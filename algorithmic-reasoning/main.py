@@ -1,14 +1,9 @@
 import openai
 import os
 import IPython
-from langchain_community.llms import OpenAI
-from dotenv import load_dotenv
 import time
 import httpx
 
-load_dotenv()
-
-OPENROUTER_API_KEY = os.getenv("HugginFace_API_KEY")
 
 client = openai.OpenAI(
     base_url="http://localhost:11434/v1", 
@@ -70,11 +65,9 @@ for i, question in enumerate(questions):
                 out.write("\n" + "="*50 + "\n\n")
             
           print(f"Question {i} completed.")
-        except httpx.HTTPStatusError as e:
-            print(f"Sunucu Hatası: {e.response.status_code}")
-            print(f"Sunucunun Gerçek Cevabı: {e.response.text}") # JSONDecodeError'a sebep olan o metni burada göreceğiz
+        
         except Exception as e:
-            print(f"Genel Hata: {e}")
+            print(f"Error: {e}")
         time.sleep(1)
 
 print("Chain of Thought Testing")
@@ -107,9 +100,6 @@ for i, question in enumerate(questions):
                 out.write("\n" + "="*50 + "\n\n")
             
           print(f"Question {i} completed.")
-        except httpx.HTTPStatusError as e:
-            print(f"Sunucu Hatası: {e.response.status_code}")
-            print(f"Sunucunun Gerçek Cevabı: {e.response.text}") # JSONDecodeError'a sebep olan o metni burada göreceğiz
         except Exception as e:
-            print(f"Genel Hata: {e}")
+            print(f"Error: {e}")
         time.sleep(1)
