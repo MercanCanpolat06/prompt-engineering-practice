@@ -21,11 +21,21 @@ Some problems I encountered were:
 - The model not deciding on what information is extracting worthy
 - The model extracting the correct information, but in inconsistent format.
 
-My prompts were promptA (zero-shot), promptB (one-shot) and promptC (few-shots).
-One-shot significantly improved the score, in comparison to one shot, as it taught the model the output format. However there was no big jump between one-shot and few-shot. The extra computation load might be unnecessary.<br>
+4. **Hallucination Reduction** <br>
+I ran this test in 2 steps: <br> 
+   1. **Small Dataset, Manual Check:** <br>I asked the model to make 10 predictions about finance and business. 5 of the questions were about real events and products. 
+The other 5 were asking about totally fictional, made up events.
+I compared 2 prompts (A and B) against this challenge. A only asks the model to make predictions about the user's prompt.
+B asks the model to fact check it before answering. <br>
+This version's code is [main_v1.py](hallucination-reduction/main_v1.py)
+    2. **Comparing Wikipedia Information with Cosine Similarity:**
+    I built a pipeline with Qwen, to gather information from *wikipedia*. Then asked the model to create 1 real 1 fake question for each information. With my new and large dataset, I challenge the model with different prompts. <br> Then, I compare the output with the ground truth by semantic checks. (cosine similarity)
 
-#### Results: <br>
-Saved in the results.md file, in the information extraction folder.
+#### Approach & Results: <br>
+My prompts were promptA (zero-shot), promptB (one-shot) and promptC (few-shots).
+One-shot significantly improved the score, in comparison to one shot, as it taught the model the output format. However there was no massive jump between one-shot and few-shot. The extra computation load might be unnecessary.<br>
+
+Saved in the [results.md](information-extraction/results.md) file, in the information extraction folder.
 
 ## Acknowledgements / Credits
 
