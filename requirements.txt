@@ -5,3 +5,5 @@ ipython
 langchain-openai
 pandas
 huggingface_hub
+wikipedia-api<0.7.0
+sentence-transformers

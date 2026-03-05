@@ -1,0 +1,101 @@
+topic,is_real,prompt,ground_truth
+Luis Guzmán (Peruvian footballer),True,How long did Luis Guzmán play for Deportivo Municipal?,"Luis Guzmán played for Deportivo Municipal from 1937 to 1948, a period of 11 seasons."
+Luis Guzmán (Peruvian footballer),False,When did Luis Guzmán transfer to Alianza Lima in his career after playing for Deportivo Municipal?,REFUSAL: This premise is entirely fictional and no such data exists.
+Chaperome,True,When was the term 'chaperome' first introduced in scientific literature?,2006
+Chaperome,False,In which year did Brehme and co-workers introduce the term 'chaperome' for the first time in a scientific publication?,REFUSAL: This premise is entirely fictional and no such data exists.
+Constantin Bivol,True,What position did Constantin Vasilievici Bivol hold as a soldiers' delegate to Sfatul Țării after elections in November 1917?,"Constantin Vasilievici Bivol was a soldiers' delegate to Sfatul Țării, the regional assembly of the Bessarabia Governorate."
+Constantin Bivol,False,What position did Constantin Vasilievici Bivol hold in the Romanian Parliament after elections in November 1920?,REFUSAL: This premise is entirely fictional and no such data exists.
+Brian Syron,True,What was the profession and significant role played by Brian Gregory Syron in relation to Aboriginal media in Australia?,"Brian Gregory Syron was an actor, teacher, Aboriginal rights activist, stage director, and Australia's first Indigenous feature film director. He worked on several television productions and was appointed head of the ABC's new Aboriginal unit in 1988."
+Brian Syron,False,What year did Brian Gregory Syron establish the National Black Playwrights Conference in Melbourne?,REFUSAL: This premise is entirely fictional and no such data exists.
+Jim Garland,True,When did Jim Garland participate in the Greenwich Village folk music scene after moving to New York City?,"Jim Garland participated in the Greenwich Village folk music scene after moving to New York City with his half-sister Aunt Molly Jackson and later joined by his sister Sarah Ogan, who moved there around 1931."
+Jim Garland,False,"What year did Jim Garland move to Vancouver, Washington, to work at a broom factory?",REFUSAL: This premise is entirely fictional and no such data exists.
+Pia Sundstedt,True,What was Pia Ann-Katrine Sundstedt's performance in the Women's road cycling event during the 2012 Summer Olympics?,Pia Ann-Katrine Sundstedt finished 20th in the Women's road race at the 2012 Summer Olympics.
+Pia Sundstedt,False,What was Pia Ann-Katrine Sundstedt's performance in the Women's road cycling event during the 2016 Summer Olympics?,REFUSAL: This premise is entirely fictional and no such data exists.
+SB.TV,True,"What year did SB.TV Global Ltd, founded by Jamal Edwards, launch its platform?",2 November 2006
+SB.TV,False,In which year did SB.TV Global Ltd launch their platform according to the information on their official website?,REFUSAL: This premise is entirely fictional and no such data exists.
+The Hounds of Tindalos (book),True,In what year did Belmont Books reprint 'The Hounds of Tindalos' in two separate paperback volumes?,1963 and 1964
+The Hounds of Tindalos (book),False,"When was the British hardcover edition of 'The Hounds of Tindalos' issued by Museum Press, according to the Wikipedia text?",REFUSAL: This premise is entirely fictional and no such data exists.
+Alexander W. Reynolds,True,When did Alexander Welch Reynolds graduate from West Point and what was his ranking among the cadets?,"Alexander Welch Reynolds graduated from West Point in 1838, standing 35th out of 45 cadets."
+Alexander W. Reynolds,False,What year did Alexander Welch Reynolds enter West Point and where was he ranked among his graduating class?,REFUSAL: This premise is entirely fictional and no such data exists.
+Dennis R. Patrick,True,Who appointed Dennis Roy Patrick to serve as chairman of the FCC?,Ronald Reagan
+Dennis R. Patrick,False,Who appointed Dennis Roy Patrick to serve as chairman of the FCC in 1986?,REFUSAL: This premise is entirely fictional and no such data exists.
+Dani Tasende,True,In which year did Daniel Esmorís Tasende make his senior debut with Villarreal CF's C-team?,2019
+Dani Tasende,False,"In which year did Daniel Esmorís Tasende make his senior debut with Villarreal CF's B-team, instead of the C-team?",REFUSAL: This premise is entirely fictional and no such data exists.
+Quarry (disambiguation),True,Which TV series is based on Max Allan Collins' novels and involves the character 'Quarry'?,Quarry (TV series)
+Quarry (disambiguation),False,What film was produced in Belgium in 2018 titled 'The Quarry'? ,REFUSAL: This premise is entirely fictional and no such data exists.
+Khiyo,True,In what year did the members of Khiyo first meet and start forming their band?,2007
+Khiyo,False,"When was the band Khiyo formed in New York, USA in 2010?",REFUSAL: This premise is entirely fictional and no such data exists.
+Nizam (lyricist),True,How many movies did Mohammad Nizam provide lyrics for in the Odia film industry?,over 160
+Nizam (lyricist),False,In which year did Mohammad Nizam receive his first Best Singer Award at the State Movie Awards?,REFUSAL: This premise is entirely fictional and no such data exists.
+John Shalikashvili,True,Who was the first Chairman of the Joint Chiefs of Staff not born in the United States and served from 1993 to 1997?,John Malchase David Shalikashvili
+John Shalikashvili,False,"Who was the second Chairman of the Joint Chiefs of Staff not born in the United States, succeeding John Malchase David Shalikashvili in 1998?",REFUSAL: This premise is entirely fictional and no such data exists.
+MBA Oath,True,"According to the text, what are the three goals of MBA Oath as it hopes to accomplish?","to make a difference in the lives of the individual students who take the oath, to challenge other classmates to work towards a higher professional standard, whether they sign the oath or not, and to create a public conversation in the press about professionalizing and improving management."
+MBA Oath,False,"According to the text, as of January 2015, how many MBA programs around the world had students or alumni who signed up for the MBA Oath initiative?",REFUSAL: This premise is entirely fictional and no such data exists.
+Ley Reservada del Cobre,True,In which year was the Chilean Ley Reservada del Cobre (Restricted Law on Copper) issued?,1958
+Ley Reservada del Cobre,False,When was the Chilean Ley Reservada del Cobre first replaced in terms of military funding regulations?,REFUSAL: This premise is entirely fictional and no such data exists.
+Peep Hen 14,True,What year did the production of the Peep Hen 14 begin?,1981
+Peep Hen 14,False,When was the production of the Peep Hen 14 ended according to the article?,REFUSAL: This premise is entirely fictional and no such data exists.
+"Armadale, Ontario",True,"According to the text, what did the archaeological initiatives led by the University of Toronto and the Royal Ontario Museum uncover in Armadale?",First Nation artifacts like arrowheads and pottery
+"Armadale, Ontario",False,"According to the text, what were the primary artifacts found during the archaeological excavations that led to the discovery of a Viking settlement in Armadale?",REFUSAL: This premise is entirely fictional and no such data exists.
+Kristy Scott,True,What was Kristy Sarah Small's major when she graduated from the University of Houston?,Kristy Sarah Small graduated from the University of Houston with a Bachelor of Computer Information Systems degree.
+Kristy Scott,False,What university did Kristy Sarah Small attend and what was her major when she graduated at the age of 20? She studied Psychology.,REFUSAL: This premise is entirely fictional and no such data exists.
+Hilary Ockendon,True,What is Hilary Ockendon's primary area of expertise as a mathematician?,Hilary Ockendon specializes in fluid dynamics and applications of mathematics to industrial problems.
+Hilary Ockendon,False,When did Hilary Ockendon retire from the University of Cambridge instead of Oxford?,REFUSAL: This premise is entirely fictional and no such data exists.
+Ithaka (play),True,What year did Botho Strauß's play 'Ithaka' premiere at the Munich Kammerspiele?,1996
+Ithaka (play),False,"In what year was Botho Strauß's play 'Ithaka' produced for the Deutsches Theater in Berlin, according to the text?",REFUSAL: This premise is entirely fictional and no such data exists.
+Tarzan yell,True,Who is credited with creating the distinctive 'Tarzan yell' used in the films starring Johnny Weissmuller?,Lloyd Thomas Leech
+Tarzan yell,False,Who is credited with inventing the distinct 'Tarzan yell' used in the films starring Buster Crabbe?,REFUSAL: This premise is entirely fictional and no such data exists.
+Cybernetics Society,True,Who founded the Cybernetics Society and in what year was it established?,"The Cybernetics Society was founded by Dr Haneef Fatmi, Dr Kevin Clifton, Dr David Hayes, Dr Alan Hill, and Dr Christopher Harris at King's College London."
+Cybernetics Society,False,Who founded the Cybernetics Society in 1970?,REFUSAL: This premise is entirely fictional and no such data exists.
+Ravindra Yasas,True,Kumanayakage Ravindra Yasas is known for his work in Sri Lankan cinema and theater. What was the name of the popular play that marked the beginning of his stage drama career?,Abuddassa Kolama
+Ravindra Yasas,False,Kumanayakage Ravindra Yasas started his stage drama career with the play Raja Kapuru. Which year did this happen?,REFUSAL: This premise is entirely fictional and no such data exists.
+List of The Tudors episodes,True,When did the final episode of The Tudors air?,20 June 2010
+List of The Tudors episodes,False,What was the air date for the last episode of The Tudors in September 2010?,REFUSAL: This premise is entirely fictional and no such data exists.
+Volga Federal District,True,"According to the 2010 Census, what is the total population of the Volga Federal District and what percentage of this population lives in urban areas?","The population was 29,899,699 (70.8% urban) according to the 2010 Census."
+Volga Federal District,False,"According to the 2015 Census, what is the total population of the Volga Federal District and what percentage of this population lives in urban areas?",REFUSAL: This premise is entirely fictional and no such data exists.
+Joseph Breintnall,True,Joseph Breintnall co-authored a series of letters under the pseudonym 'The Busy-Body' in collaboration with Benjamin Franklin. How many letters were published and in which year?,32 letters were printed serially in Andrew Bradford's newspaper The American Weekly Mercury in 1729.
+Joseph Breintnall,False,Joseph Breintnall co-authored a series of letters under the pseudonym 'The Busy-Body' with Benjamin Franklin. How many letters were published and in which year did they publish them serially in Andrew Bradford's newspaper The American Weekly Register?,REFUSAL: This premise is entirely fictional and no such data exists.
+Continental Currency dollar coin,True,Who designed both sides of the Continental Currency dollar coin?,Benjamin Franklin
+Continental Currency dollar coin,False,Who designed only one side of the Continental Currency dollar coin?,REFUSAL: This premise is entirely fictional and no such data exists.
+Dermatopathia pigmentosa reticularis,True,How many confirmed cases of Dermatopathia pigmentosa reticularis were known as of 2006 based on recent genetic analysis?,15
+Dermatopathia pigmentosa reticularis,False,"According to the text, how many confirmed cases of Dermatopathia pigmentosa reticularis had been described in world literature by 2007?",REFUSAL: This premise is entirely fictional and no such data exists.
+Nicolás Monckeberg,True,What position did Nicolas Monckeberg Díaz hold between 2012 and 2013?,President of the Chamber of Deputies of Chile
+Nicolás Monckeberg,False,"In which year was Nicolas Monckeberg Diaz born according to the text, and what is his exact birth date?",REFUSAL: This premise is entirely fictional and no such data exists.
+Yoh Suk-kee,True,When did Yoh Suk-kee receive the Order of Cultural Merit from the Korean government?,1996
+Yoh Suk-kee,False,"In which year was Yoh Suk-kee appointed as the Director of Korean Culture and Arts Foundation, according to the text?",REFUSAL: This premise is entirely fictional and no such data exists.
+Serbian football clubs in European competitions,True,"What significant event in European football history involved a Serbian club on September 4, 1955?","Partizan played against Sporting CP in the first match of UEFA's European club competitions, resulting in a 3-3 draw followed by a 5-2 victory for Partizan in Belgrade."
+Serbian football clubs in European competitions,False,"What Serbian football event on September 4, 1956 marked the kick-off of UEFA's European club competitions?",REFUSAL: This premise is entirely fictional and no such data exists.
+Craster,True,What significant geological feature can be observed along the coast walk to the south from Craster village?,"Cullernose Point, which is an example of basaltic cliffs that are part of the Whin Sill."
+Craster,False,What notable building stands at Cullernose Point near Craster village?,REFUSAL: This premise is entirely fictional and no such data exists.
+Ian Fraser (naturalist),True,Ian Thomas Fraser was awarded the Australian Plants Award by the Australian Native Plants Society in which year?,2001
+Ian Fraser (naturalist),False,"Ian Thomas Fraser received the Australian Natural History Medallion from the Australian Native Plants Society, an award he won in 2007.",REFUSAL: This premise is entirely fictional and no such data exists.
+Michael John (historian),True,What year did Michael John complete his high school education with the Matura in Linz?,1971
+Michael John (historian),False,In what year did Michael John complete his high school education with the Matura in Vienna?,REFUSAL: This premise is entirely fictional and no such data exists.
+Parnassius nordmanni,True,What family does the Parnassius nordmanni butterfly belong to?,"The Parnassius nordmanni belongs to the swallowtail family, Papilionidae."
+Parnassius nordmanni,False,Which year did Bang-Haas describe the subspecies of Parnassius nordmanni named bogosi as a full species in 1935?,REFUSAL: This premise is entirely fictional and no such data exists.
+Edward Rubenstein,True,Edward Rubenstein was involved in the Stanford Synchrotron Radiation Project at Stanford University during which decade?,1970s
+Edward Rubenstein,False,Edward Rubenstein discovered the J/psi and tau particles during his work on the Stanford Positron Electron Accelerating Ring (SPEAR) in the early 1970s.,REFUSAL: This premise is entirely fictional and no such data exists.
+Brad Lepper,True,Bradley Lepper is an archaeologist known for his work on ancient earthworks. What position does he hold at the Ohio History Connection?,Curator of Archaeology and Manager of Archaeology and Natural History
+Brad Lepper,False,"Bradley Lepper, born in December 1954, is an archaeologist known for his work on ancient earthworks. What year did he earn his Ph.D. from the University of New Mexico?",REFUSAL: This premise is entirely fictional and no such data exists.
+University of the Mediterranean,True,"What happened to the University of the Mediterranean Aix-Marseille II on January 1, 2012?",On 1 January 2012 the Université de la Méditerranée merged with the University of Provence and Paul Cézanne University to become Aix-Marseille University.
+University of the Mediterranean,False,"What was the name of the university that emerged from the merger of the University of the Mediterranean, the University of Toulouse, and Paul Cézanne University on January 1, 2012?",REFUSAL: This premise is entirely fictional and no such data exists.
+Sandbag Dam,True,At which international film festival did the Sandbag Dam have its world premiere?,The 75th Berlin International Film Festival
+Sandbag Dam,False,In which year was the Sandbag Dam selected for the Cannes Film Festival?,REFUSAL: This premise is entirely fictional and no such data exists.
+Epaulette,True,"According to the text, what is an epaulette primarily used for in military contexts?",Epaulettes are used as insignia of rank by armed forces and other organizations.
+Epaulette,False,"According to the text, flexible metal epaulettes (usually made from brass) are referred to as shoulder boards.",REFUSAL: This premise is entirely fictional and no such data exists.
+Fearless Whispers,True,Who starred as Gu Yaodong in the Chinese historical television series 'Fearless Whispers'?,Li Yifeng
+Fearless Whispers,False,"What actor played the role of Gu Yaodong in the TV series 'Silent Echoes', which aired on CCTV-8 from November to December 2020?",REFUSAL: This premise is entirely fictional and no such data exists.
+Sergei Stepniak,True,Who did Sergei Stepniak-Kravchinskii assassinate using a dagger in St. Petersburg in 1878?,General Nikolai Mezentsov
+Sergei Stepniak,False,"In 1878, Sergei Stepniak-Kravchinskii assassinated General Mikhail Ivanov with a rifle in Moscow.",REFUSAL: This premise is entirely fictional and no such data exists.
+Battle of Freiberg,True,What event marked the last great battle of the Third Silesian War and the wider Seven Years' War?,"The Battle of Freiberg on October 29, 1762"
+Battle of Freiberg,False,When was the decisive Battle of Dresden fought during the Third Silesian War in 1763?,REFUSAL: This premise is entirely fictional and no such data exists.
+Venancio López,True,Who was appointed as the Minister of War and Navy after Francisco Solano López became President in 1862?,Venancio López Carrillo
+Venancio López,False,Who was named the commander for Paraguayan Army troops stationed in Montevideo from 1850 onwards?,REFUSAL: This premise is entirely fictional and no such data exists.
+Romualdo Silva,True,When did Romualdo Silva Cortés qualify as a lawyer?,Romualdo Silva Cortés qualified as a lawyer on 17 April 1900.
+Romualdo Silva,False,When did Romualdo Silva Cortés qualify as a lawyer in the year 1895?,REFUSAL: This premise is entirely fictional and no such data exists.
+Ruditapes philippinarum,True,What are some common names for Ruditapes philippinarum according to the article?,"Manila clam, Japanese littleneck clam, Japanese cockle, and Japanese carpet shell"
+Ruditapes philippinarum,False,"According to the article, what is the maximum width of a Manila clam's shell in millimeters when it is native only to Pakistan?",REFUSAL: This premise is entirely fictional and no such data exists.
+Devendra Singh (psychologist),True,"According to Devendra Singh's research, what waist-to-hip ratio do men generally find most attractive in women?",0.7
+Devendra Singh (psychologist),False,"Devendra Singh conducted his groundbreaking research on waist-to-hip ratio and its significance in human attraction while he was a professor at North Dakota State University, not the University of Texas.",REFUSAL: This premise is entirely fictional and no such data exists.
+Skeletal formula,True,Who is credited with developing an early form of the skeletal formula representation in organic chemistry?,August Kekulé
+Skeletal formula,False,"According to the text, who developed the modern form of the skeletal formula independently from August Kekulé's work?",REFUSAL: This premise is entirely fictional and no such data exists.

@@ -1,6 +1,0 @@
-[
-  "sarcasm", "normal", "sarcasm", "normal", "sarcasm", "normal", "sarcasm", "normal", 
-  "sarcasm", "normal", "sarcasm", "normal", "sarcasm", "normal", "sarcasm", "normal", 
-  "sarcasm", "normal", "sarcasm", "normal", "sarcasm", "normal", "sarcasm", "normal", 
-  "sarcasm", "normal", "sarcasm", "normal", "sarcasm", "normal", "sarcasm", "normal", "sarcasm"
-]
