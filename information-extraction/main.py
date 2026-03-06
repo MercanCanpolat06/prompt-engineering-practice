@@ -1,7 +1,4 @@
 import openai
-import os
-import IPython
-import time
 import httpx
 import ast
 import json
